@@ -15,6 +15,7 @@ public static class ItemDatabase
         int _value = 0;
         int _heal = 0;
         int _damage = 0;
+        int _amount = 0;
 
         switch (ID)
         {
@@ -220,6 +221,7 @@ public static class ItemDatabase
         temp.Damage = _damage;
         temp.Heal = _heal;
         temp.MeshName = _mesh;
+        temp.Amount = _amount;
         temp.Icon = Resources.Load("Icons/" + _icon) as Texture2D;
 
 

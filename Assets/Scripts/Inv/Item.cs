@@ -14,6 +14,7 @@ public class Item
     private int _damage;
     //private float _weight;
     //private int _durability;
+    private int _amount;
 
     public void Init()
     {
@@ -36,6 +37,12 @@ public class Item
     {
         get { return _name; }
         set { _name = value; }
+    }
+
+    public int Amount
+    {
+        get { return _amount; }
+        set { _amount = value; }
     }
 
     public string Description
